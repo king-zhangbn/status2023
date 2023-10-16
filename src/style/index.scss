@@ -43,17 +43,17 @@ body {
       height: 100%;
       z-index: -1;
       &.loading {
-        background: linear-gradient(to right, #00bbff 0%, #0088ff 100%);
+        background: linear-gradient(93deg, rgb(228 201 231) 0%, rgb(93 92 153) 100%);
       }
       &.error {
-        background: linear-gradient(to right, #e47e7e 0%, #ee5555 100%);
+        background: linear-gradient(126deg, rgb(202 197 193) 0%, rgb(0 0 0) 100%);
       }
       &.allError,
       &.wrong {
-        background: linear-gradient(to right, #ee5555 0%, #ff2b2b 100%);
+        background: linear-gradient(126deg, rgb(202 197 193) 0%, rgb(255 0 0) 100%);
       }
       &.normal {
-        background: linear-gradient(to right, #4fd69c 0%, #24a66e 100%);
+        background: linear-gradient(126deg, rgb(132 188 225) 0%, rgb(255 153 153) 100%);
       }
     }
     .container {
@@ -224,7 +224,7 @@ body {
         justify-content: center;
         min-height: 200px;
         border-radius: 16px;
-        background-color: $main-background;
+        background-color: #fff0;
         box-shadow: 0 10px 30px #0000001a;
         overflow: hidden;
         .loading {
