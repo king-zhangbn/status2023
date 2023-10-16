@@ -18,7 +18,7 @@ $loading-color: #58d0ff;
 
 body {
   background-color: #f6f8fa;
-  background-image: url("/images/background.png");
+  background-image: url("/images/bg-b.svg");
   background-attachment: fixed;
   overflow-y: overlay;
   overflow-x: hidden;
@@ -33,7 +33,7 @@ body {
     height: 360px;
     padding: 30px 0 48px 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #00bbff 0%, #0088ff 100%);
+    background: linear-gradient(93deg, rgb(228 201 231) 0%, rgb(93 92 153) 100%);
     z-index: 0;
     .cover {
       width: 100%;
@@ -225,7 +225,8 @@ body {
         min-height: 200px;
         border-radius: 16px;
         background-color: #fff0;
-        box-shadow: 0 10px 30px #0000001a;
+        backdrop-filter: blur(3px);
+        box-shadow: 0 10px 30px #00000045;
         overflow: hidden;
         .loading {
           width: 36px;
